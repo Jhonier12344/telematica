@@ -8,14 +8,14 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'DEPORTES.COM',
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [
             '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
+            'quiensoy' => 'Acerca de mí',
+            'noticia1' => 'Noticia sobre futbol',
+            'noticia2' => 'Noticia sobre boxeo',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
